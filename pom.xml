@@ -14,8 +14,8 @@
 	<properties>
 		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<diozero.version>0.7</diozero.version>
-		<telegrambots.version>2.3.5</telegrambots.version>
+		<diozero.version>0.10</diozero.version>
+		<telegrambots.version>3.5</telegrambots.version>
 		<passay.version>1.0</passay.version>
 		<guava.version>19.0</guava.version>
 		<javax.mail.version>1.4.7</javax.mail.version>
@@ -27,6 +27,10 @@
 
 	</properties>
 	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
